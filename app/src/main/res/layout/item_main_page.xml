@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_border"
+        android:layout_gravity="center"
+        >
+
+        <ImageButton
+            android:id="@+id/imgOption"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="#00FFFFFF"
+            android:src="@drawable/ic_baseline_notifications_none_24" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tvOptionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="بانکیبانکیبانکیبانکیبانکی"
+        android:maxLines="1"
+        android:minEms="10"
+        android:fontFamily="@font/yekan"
+        />
+</LinearLayout>

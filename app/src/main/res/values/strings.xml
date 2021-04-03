@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">دیجی پی</string>
+    <string name="home">خانه</string>
+    <string name="video">جشنواره</string>
+    <string name="scan">بارکدخوان</string>
+    <string name="transaction">تراکنشها</string>
+</resources>

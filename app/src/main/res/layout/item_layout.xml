@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lnlItemMain"
+    android:layout_width="@dimen/item_width_main"
+    android:layout_height="@dimen/item_height_main"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginLeft="-20dp"
+    android:layout_marginRight="-20dp"
+    android:animateLayoutChanges="true"
+    android:animationCache="true"
+    android:gravity="center"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:id="@+id/tvItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginBottom="10dp"
+        android:gravity="top|right"
+        android:text="کارت بانکی"
+        android:textSize="24sp"
+        android:visibility="gone"
+
+
+        />
+
+    <LinearLayout
+        android:id="@+id/lnlItem"
+        android:layout_width="@dimen/item_with_s"
+        android:layout_height="@dimen/item_height_s"
+        android:layout_gravity="center"
+        android:layout_marginTop="-20dp"
+        android:alpha="0.5"
+        android:background="@drawable/top_item_background"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:id="@+id/tvCardName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/yekan"
+            android:text="کارت بانکی"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+
+            />
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            android:text="تلاش مجدد"
+            android:textSize="10sp"
+            android:drawableRight="@drawable/ic_baseline_refresh_24"
+            android:drawableTint="@color/white"
+            android:layout_gravity="right|bottom"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/white"
+
+
+            />
+    </LinearLayout>
+
+</LinearLayout>
